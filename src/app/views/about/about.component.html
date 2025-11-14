@@ -1,0 +1,18 @@
+<div class="relative w-full overflow-hidden bg-[url(/images/noise.png)] pb-[13vh]" (mousemove)="onMouseMove($event)">
+  <div class="flex h-full min-h-72 w-full flex-col items-center justify-center border-b border-[#717171] bg-[#212529] bg-[radial-gradient(circle,rgba(0,0,0,0.1)_0,rgba(0,0,0,0.5)_100%)] bg-no-repeat p-8 text-[#ff5722] max-sm:p-4">
+    <h1 class="mb-0 font-bona text-7xl max-sm:text-5xl">About me</h1>
+  </div>
+
+  <div class="flex flex-col items-center w-full gap-8 p-8 max-sm:px-0">
+    <app-intro observeVisibility id="intro-section" class="relative flex flex-col w-full h-full max-w-screen-xl mt-8 mb-2 min-h-72"></app-intro>
+    <app-what-i-do observeVisibility id="what-i-do-section" class="flex flex-col items-center justify-start w-full max-w-screen-xl py-8 px-14 max-xl:px-0 max-lg:px-0 max-md:px-0 max-sm:p-8 max-sm:px-4"></app-what-i-do>
+    <app-skills observeVisibility id="skills-section" class="flex flex-col items-center justify-start w-full max-w-screen-xl py-8 px-14 max-xl:px-0 max-lg:px-14 max-md:px-0 max-sm:p-8 max-sm:px-2"></app-skills>
+    <app-selected-projects observeVisibility id="selected-projects-section" class="flex flex-col items-center justify-start w-full max-w-screen-xl gap-4 py-8 px-14 max-xl:px-0 max-lg:px-0 max-md:px-0 max-sm:p-8 max-sm:px-4"></app-selected-projects>
+    <app-education observeVisibility id="education-section" class="flex flex-col items-center justify-start w-full max-w-screen-xl py-8 px-14 max-xl:px-0 max-lg:px-0 max-md:px-0 max-sm:p-8 max-sm:px-4"></app-education>
+    <app-experience observeVisibility id="experience-section" class="flex flex-col items-center justify-start w-full max-w-screen-xl py-8 px-14 max-xl:px-0 max-lg:px-0 max-md:px-0 max-sm:p-8 max-sm:px-4"></app-experience>
+  </div>
+
+  <div class="fixed inset-0 transition duration-300 pointer-events-none -z-10 lg:absolute" [ngStyle]="{ background: 'radial-gradient(400px at ' + bg_x + 'px ' + bg_y + 'px, rgba(0,0,0,0.1), rgba(0,0,0,0.5) 100%)' }"></div>
+</div>
+
+<app-footer></app-footer>
