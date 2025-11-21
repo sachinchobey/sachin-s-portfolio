@@ -11,49 +11,23 @@
     "CSS",
     "JavaScript",
     "TypeScript",
-    "Python",
-    "Java",
-    "C++",
-    "C#",
-    "C",
-    "PHP",
-    "Prolog",
-    "Haskell",
     "SQL",
-    "MySQL",
-    "PostgreSQL",
     "MongoDB",
-    "Neo4j",
-    "Ruby",
-    "Rust",
-    "NASM",
-    "Kotlin",
-    "Haskell",
     "Windows",
     "Linux",
-    "Android",
-    "Android Studio",
-    "Unity",
-    "Laravel",
-    "jQuery",
     "React.js",
     "Vue.js",
     "Angular",
     "Node.js",
-    "Express.js",
-    "Flask",
-    "Spring Boot",
-    "Django",
-    "PySimpleGUI",
-    "Tkinter",
     "Tailwind CSS",
-    "Arduino",
-    "LESS",
     "SCSS",
     "SASS",
-    "SPARQL",
-    "SocketIO",
-    "Java Swing"
+    "Firebase",
+    "Supabase",
+    "Canvas",
+    "p5.js",
+    "Nativescript",
+    "Ionic"
   ],
   "projects": [
     {
@@ -67,9 +41,9 @@
         "images/Resume/footer.png"
       ],
       "description": "My personal website. The one you are lookng at now.",
-      "live_version": "https://pasek108.github.io/Resume/",
-      "github_repo": "https://github.com/Pasek108/Resume",
-      "skills": [31, 39, 3, 2, 1, 0],
+      "live_version": "#",
+      "github_repo": "https://github.com/sachinchobey/sachin-s-portfolio",
+      "skills": [10, 12, 3, 2, 1, 0],
       "group": 0,
       "hidden": false
     },
@@ -85,7 +59,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"REST Countries API with color theme switcher\" challenge.",
       "live_version": "https://pasek108.github.io/FM-WhereInTheWorld/",
-      "github_repo": "https://github.com/Pasek108/FM-WhereInTheWorld",
+      "github_repo": "https://github.com/sachinchobey/FM-WhereInTheWorld",
       "skills": [2, 41, 0, 1],
       "group": 2,
       "hidden": false
@@ -101,7 +75,7 @@
       ],
       "description": "Three tic-tac-toe versions in two modes. Playable vs vs AI, vs player locally and multiplayer in real-time.",
       "live_version": "https://tic-tac-toe-alqu.onrender.com/",
-      "github_repo": "https://github.com/Pasek108/TicTacToe",
+      "github_repo": "https://github.com/sachinchobey/TicTacToe",
       "skills": [2, 4, 42, 45, 34, 1, 0],
       "group": 0,
       "hidden": false
@@ -118,7 +92,7 @@
       ],
       "description": "Arcade game where player have to survive increasing waves of goblins in one attempt.",
       "live_version": "https://pasek108.github.io/GoblinSlayer/",
-      "github_repo": "https://github.com/Pasek108/GoblinSlayer",
+      "github_repo": "https://github.com/sachinchobey/GoblinSlayer",
       "skills": [2, 42, 0, 1],
       "group": 0,
       "hidden": false
@@ -132,7 +106,7 @@
       ],
       "description": "Project from my studies at University of Rzeszów (UR). Matchstick puzzle equations on Arduino and console.",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/UR-MatchstickEquations",
+      "github_repo": "https://github.com/sachinchobey/UR-MatchstickEquations",
       "skills": [40, 6, 8, 2, 10],
       "group": 3,
       "hidden": false
@@ -146,7 +120,7 @@
       ],
       "description": "BeFunge 93 interpreter with grid visualisation, debugging tools and nyan cats animations.",
       "live_version": "https://pasek108.github.io/BeFunge93Interpreter/",
-      "github_repo": "https://github.com/Pasek108/BeFunge93Interpreter",
+      "github_repo": "https://github.com/sachinchobey/BeFunge93Interpreter",
       "skills": [2, 41, 0, 1],
       "group": 0,
       "hidden": false
@@ -159,7 +133,7 @@
       ],
       "description": "My normal and minimal solutions for CSSBattle challenges.",
       "live_version": "https://pasek108.github.io/CSSBattle-Solutions/",
-      "github_repo": "https://github.com/Pasek108/CSSBattle-Solutions",
+      "github_repo": "https://github.com/sachinchobey/CSSBattle-Solutions",
       "skills": [2, 1, 0],
       "group": 4,
       "hidden": false
@@ -176,7 +150,7 @@
       ],
       "description": "A small set of connection-based puzzle games about recreating the correct connections between objects.",
       "live_version": "https://pasek108.github.io/ConnectGame/",
-      "github_repo": "https://github.com/Pasek108/ConnectGame",
+      "github_repo": "https://github.com/sachinchobey/ConnectGame",
       "skills": [2, 41, 1, 0],
       "group": 0,
       "hidden": false
@@ -193,7 +167,7 @@
       ],
       "description": "Arcade racing game with the goal to get as many points as possible in one attempt by killing deers and avoiding cars.",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/DeerKiller",
+      "github_repo": "https://github.com/sachinchobey/DeerKiller",
       "skills": [2, 1, 0, 9, 13],
       "group": 0,
       "hidden": false
@@ -206,7 +180,7 @@
       ],
       "description": "My solutions with descriptions for Codewars challenges.",
       "live_version": "https://pasek108.github.io/Codewars-Solutions/",
-      "github_repo": "https://github.com/Pasek108/Codewars-Solutions",
+      "github_repo": "https://github.com/sachinchobey/Codewars-Solutions",
       "skills": [2, 1, 0, 4, 9, 5, 12, 11, 19, 3, 17],
       "group": 4,
       "hidden": false
@@ -221,7 +195,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"Rock, Paper, Scissors game\" challenge.",
       "live_version": "https://pasek108.github.io/FM-RockPaperScissors/",
-      "github_repo": "https://github.com/Pasek108/FM-RockPaperScissors",
+      "github_repo": "https://github.com/sachinchobey/FM-RockPaperScissors",
       "skills": [2, 41, 1, 0],
       "group": 2,
       "hidden": false
@@ -237,7 +211,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"Multi-Step Form\" challenge.",
       "live_version": "https://pasek108.github.io/FM-MultiStepForm/",
-      "github_repo": "https://github.com/Pasek108/FM-MultiStepForm",
+      "github_repo": "https://github.com/sachinchobey/FM-MultiStepForm",
       "skills": [30, 3, 2, 1, 0],
       "group": 2,
       "hidden": false
@@ -250,7 +224,7 @@
       ],
       "description": "Solving Loldle game using knowledge base and generated SPARQL queries in Fluent Editor.",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/UR-LoldleSolver",
+      "github_repo": "https://github.com/sachinchobey/UR-LoldleSolver",
       "skills": [44, 2, 1, 0],
       "group": 3,
       "hidden": false
@@ -262,7 +236,7 @@
       ],
       "description": "Simple weather weather app with Pirate Weather API and Geonames API.",
       "live_version": "https://pasek108.github.io/Weather/",
-      "github_repo": "https://github.com/Pasek108/Weather",
+      "github_repo": "https://github.com/sachinchobey/Weather",
       "skills": [29, 2, 1, 0],
       "group": 0,
       "hidden": false
@@ -274,7 +248,7 @@
       ],
       "description": "My solution for The Odin Project \"Rock Paper Scissors\" project.",
       "live_version": "https://pasek108.github.io/TOP-Rock-Paper-Scissors/",
-      "github_repo": "https://github.com/Pasek108/TOP-Rock-Paper-Scissors",
+      "github_repo": "https://github.com/sachinchobey/TOP-Rock-Paper-Scissors",
       "skills": [2, 1, 0],
       "group": 1,
       "hidden": false
@@ -286,7 +260,7 @@
       ],
       "description": "Fixes and improvements for the phpMyAdmin designer to enhance its usability.",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/PMA-BetterDesigner",
+      "github_repo": "https://github.com/sachinchobey/PMA-BetterDesigner",
       "skills": [2, 1, 28, 0],
       "group": 4,
       "hidden": false
@@ -298,7 +272,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"Launch countdown timer\" challenge.",
       "live_version": "https://pasek108.github.io/FM-LaunchCountdownTimer/",
-      "github_repo": "https://github.com/Pasek108/FM-LaunchCountdownTimer",
+      "github_repo": "https://github.com/sachinchobey/FM-LaunchCountdownTimer",
       "skills": [39, 2, 1, 0],
       "group": 2,
       "hidden": false
@@ -311,7 +285,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"Job listings with filtering\" challenge.",
       "live_version": "https://pasek108.github.io/FM-JobListingsWithFiltering/",
-      "github_repo": "https://github.com/Pasek108/FM-JobListingsWithFiltering",
+      "github_repo": "https://github.com/sachinchobey/FM-JobListingsWithFiltering",
       "skills": [31, 3, 2, 1, 0],
       "group": 2,
       "hidden": false
@@ -323,7 +297,7 @@
       ],
       "description": "My solution for The Odin Project \"Calculator\" project.",
       "live_version": "https://pasek108.github.io/TOP-Calculator/",
-      "github_repo": "https://github.com/Pasek108/TOP-Calculator",
+      "github_repo": "https://github.com/sachinchobey/TOP-Calculator",
       "skills": [2, 1, 0],
       "group": 1,
       "hidden": false
@@ -335,7 +309,7 @@
       ],
       "description": "My solution for The Odin Project \"Etch-A-Sketch\" project.",
       "live_version": "https://pasek108.github.io/TOP-Etch-A-Sketch/",
-      "github_repo": "https://github.com/Pasek108/TOP-Etch-A-Sketch",
+      "github_repo": "https://github.com/sachinchobey/TOP-Etch-A-Sketch",
       "skills": [2, 1, 0],
       "group": 1,
       "hidden": false
@@ -345,7 +319,7 @@
       "images": [],
       "description": "Solutions to Arduino exercises from my studies at University of Rzeszów (UR).",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/UR-Arduino",
+      "github_repo": "https://github.com/sachinchobey/UR-Arduino",
       "skills": [40, 6],
       "group": 3,
       "hidden": false
@@ -355,7 +329,7 @@
       "images": [],
       "description": "Solutions to Haskell exercises from my studies at University of Rzeszów (UR).",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/UR-Haskell",
+      "github_repo": "https://github.com/sachinchobey/UR-Haskell",
       "skills": [11],
       "group": 3,
       "hidden": false
@@ -365,7 +339,7 @@
       "images": [],
       "description": "Solutions to Prolog exercises from my studies at University of Rzeszów (UR).",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/UR-Prolog",
+      "github_repo": "https://github.com/sachinchobey/UR-Prolog",
       "skills": [10],
       "group": 3,
       "hidden": false
@@ -377,7 +351,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"Notifications page\" challenge.",
       "live_version": "https://pasek108.github.io/FM-NotificationsPage/",
-      "github_repo": "https://github.com/Pasek108/FM-NotificationsPage",
+      "github_repo": "https://github.com/sachinchobey/FM-NotificationsPage",
       "skills": [2, 41, 0, 1],
       "group": 2,
       "hidden": false
@@ -389,7 +363,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"Results summary component\" challenge.",
       "live_version": "https://pasek108.github.io/FM-ResultsSummaryComponent/",
-      "github_repo": "https://github.com/Pasek108/FM-ResultsSummaryComponent",
+      "github_repo": "https://github.com/sachinchobey/FM-ResultsSummaryComponent",
       "skills": [2, 1, 0],
       "group": 2,
       "hidden": false
@@ -402,7 +376,7 @@
       ],
       "description": "My solution to the Frontend Mentor \"Interactive rating component\" challenge.",
       "live_version": "https://pasek108.github.io/FM-InteractiveRatingComponent/",
-      "github_repo": "https://github.com/Pasek108/FM-InteractiveRatingComponent",
+      "github_repo": "https://github.com/sachinchobey/FM-InteractiveRatingComponent",
       "skills": [31, 42, 3, 2, 1, 0],
       "group": 2,
       "hidden": false
@@ -414,7 +388,7 @@
       ],
       "description": "Visualization of Tower of Hanoi algorithm.",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/TowerOfHanoi",
+      "github_repo": "https://github.com/sachinchobey/TowerOfHanoi",
       "skills": [46, 5],
       "group": 0,
       "hidden": false
@@ -426,7 +400,7 @@
       ],
       "description": "My solution for The Odin Project \"Landing Page\" project.",
       "live_version": "https://pasek108.github.io/TOP-Landing-Page/",
-      "github_repo": "https://github.com/Pasek108/TOP-Landing-Page",
+      "github_repo": "https://github.com/sachinchobey/TOP-Landing-Page",
       "skills": [1, 0],
       "group": 1,
       "hidden": false
@@ -438,7 +412,7 @@
       ],
       "description": "My solution for The Odin Project \"Recipes\" project.",
       "live_version": "https://pasek108.github.io/TOP-Recipes/",
-      "github_repo": "https://github.com/Pasek108/TOP-Recipes",
+      "github_repo": "https://github.com/sachinchobey/TOP-Recipes",
       "skills": [0],
       "group": 1,
       "hidden": false
@@ -448,7 +422,7 @@
       "images": [],
       "description": "Summary of my take on The Odin Project (TOP) foundations course",
       "live_version": "https://pasek108.github.io/TOP-Foundations/",
-      "github_repo": "https://github.com/Pasek108/TOP-Foundations",
+      "github_repo": "https://github.com/sachinchobey/TOP-Foundations",
       "skills": [2, 1, 0],
       "group": 1,
       "hidden": false

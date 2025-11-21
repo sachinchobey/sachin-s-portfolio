@@ -15,9 +15,9 @@
 
   <div class="absolute flex justify-center w-full gap-2 bottom-3">
     @for (image of images; track $index) {
-      <div (click)="showImage($index)" class="h-2 w-10 rounded-sm border border-black bg-black bg-opacity-50 outline outline-1 outline-[#ffffff80] transition-colors duration-1000 hover:cursor-pointer" [ngClass]="{ '!bg-[#ff5722]': $index == active_image, 'bg-opacity-100': $index == active_image }"></div>
+      <div (click)="showImage($index)" class="h-2 w-10 rounded-sm border border-black bg-black bg-opacity-50 outline outline-1 outline-[#ffffff80] transition-colors duration-1000 hover:cursor-pointer" [ngClass]="{ '!bg-[#00C8FF]': $index == active_image, 'bg-opacity-100': $index == active_image }"></div>
     } @empty {
-      <div class="h-2 w-10 rounded-sm border border-black  outline outline-1 outline-[#ffffff80] transition-colors duration-1000 hover:cursor-pointer bg-[#ff5722] bg-opacity-100"></div>
+      <div class="h-2 w-10 rounded-sm border border-black  outline outline-1 outline-[#ffffff80] transition-colors duration-1000 hover:cursor-pointer bg-[#00C8FF] bg-opacity-100"></div>
     }
   </div>
 </div>

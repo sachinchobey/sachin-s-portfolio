@@ -5,17 +5,17 @@
 </div>
 
 <div class="flex w-1/4 min-w-fit shrink-0 flex-grow items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-top-10 max-[600px]:w-full">
-  <div (click)="goToPage(0)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722]"><i class="fa-solid fa-angles-left"></i></div>
-  <div (click)="goToPage(page - 1)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722] max-[600px]:flex-grow"><i class="fa-solid fa-angle-left"></i></div>
+  <div (click)="goToPage(0)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF]"><i class="fa-solid fa-angles-left"></i></div>
+  <div (click)="goToPage(page - 1)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF] max-[600px]:flex-grow"><i class="fa-solid fa-angle-left"></i></div>
 
-  @if (page + 1 == max_page && page - 2 >= 0) { <div (click)="goToPage(page - 2)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722]">{{ page - 1 }}</div> }
-  @if (page - 1 >= 0) {                         <div (click)="goToPage(page - 1)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722]">{{ page }}</div> }
-                                                <div                              class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722] pb-px text-xl font-bold text-[#ff5722]">{{ page + 1 }}</div>
-  @if (page + 1 < max_page) {                   <div (click)="goToPage(page + 1)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722]">{{ page + 2 }}</div> }
-  @if (page == 0 && page + 2 < max_page) {      <div (click)="goToPage(page + 2)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722]">{{ page + 3 }}</div> }
+  @if (page + 1 == max_page && page - 2 >= 0) { <div (click)="goToPage(page - 2)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF]">{{ page - 1 }}</div> }
+  @if (page - 1 >= 0) {                         <div (click)="goToPage(page - 1)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF]">{{ page }}</div> }
+                                                <div                              class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF] pb-px text-xl font-bold text-[#00C8FF]">{{ page + 1 }}</div>
+  @if (page + 1 < max_page) {                   <div (click)="goToPage(page + 1)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF]">{{ page + 2 }}</div> }
+  @if (page == 0 && page + 2 < max_page) {      <div (click)="goToPage(page + 2)" class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-md transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF]">{{ page + 3 }}</div> }
 
-  <div (click)="goToPage(page + 1)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722] max-[600px]:flex-grow"><i class="fa-solid fa-angle-right"></i></div>
-  <div (click)="goToPage(max_page - 1)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#ff5722]"><i class="fa-solid fa-angles-right"></i></div>
+  <div (click)="goToPage(page + 1)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF] max-[600px]:flex-grow"><i class="fa-solid fa-angle-right"></i></div>
+  <div (click)="goToPage(max_page - 1)" class="2-6 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-[#717171] pt-px text-sm transition-colors duration-150 hover:bg-gray-700 hover:text-[#00C8FF]"><i class="fa-solid fa-angles-right"></i></div>
 </div>
 
 <div class="flex w-1/4 flex-grow items-center justify-end gap-1.5">

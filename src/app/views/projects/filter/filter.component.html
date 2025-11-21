@@ -28,7 +28,7 @@
       of the skills
     </div>
 
-    <button (click)="clearSkills()" class="flex cursor-pointer items-center justify-center gap-1.5 underline-offset-2 hover:text-[#ff5722]">
+    <button (click)="clearSkills()" class="flex cursor-pointer items-center justify-center gap-1.5 underline-offset-2 hover:text-[#00C8FF]">
       <i class="fa-solid fa-xmark -mb-0.5"></i>
       Clear all
     </button>
@@ -38,7 +38,7 @@
     @for (skill of search_skills; track $index) {
       <div class="relative flex items-center p-1 px-3 pr-8 overflow-hidden text-xs font-bold uppercase rounded-md bg-slate-600 text-slate-100">
         {{ skill }}
-        <i (click)="removeSkill(skill)" class="fa-solid fa-xmark absolute right-0 flex h-full w-6 cursor-pointer items-center justify-center bg-gray-700 text-sm hover:text-[#ff5722]"></i>
+        <i (click)="removeSkill(skill)" class="fa-solid fa-xmark absolute right-0 flex h-full w-6 cursor-pointer items-center justify-center bg-gray-700 text-sm hover:text-[#00C8FF]"></i>
       </div>
     }
 

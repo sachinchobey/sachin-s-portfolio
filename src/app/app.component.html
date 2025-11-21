@@ -1,7 +1,7 @@
 <header id="header" class="border-[#717171 relative z-50 flex h-20 w-full justify-center border-b bg-no-repeat px-8 py-4 max-sm:p-4" style="background: radial-gradient(circle at 0, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.5) 100%) #212529">
   <div class="flex items-center justify-between w-full max-w-screen-xl gap-16">
     <a routerLink="" class="-mt-[5px] flex flex-col">
-      <div class="text-3xl font-bold text-[#ff5722]">Artur Pas</div>
+      <div class="text-3xl font-bold text-[#00C8FF]">Sachin Chobey</div>
       <div class="-mt-1 text-sm">Web developer</div>
     </a>
 
@@ -16,17 +16,17 @@
     <nav [style.display]="menu_hidden ? 'none' : null" class="right-0 top-20 z-50 flex cursor-pointer items-center justify-end gap-8 font-bold uppercase max-sm:absolute max-sm:h-[calc(100dvh-5rem)] max-sm:flex-col max-sm:justify-center max-sm:gap-0 max-sm:bg-[#111315] max-sm:px-20 max-sm:py-4 max-sm:text-2xl">
       <a (click)="toggleMenu()" routerLink="about" routerLinkActive="active" #aboutLinkActiveRef="routerLinkActive" (click)="scrollToTop(aboutLinkActiveRef.isActive)" class="group px-1 transition duration-300 max-sm:w-full max-sm:p-4 max-sm:text-center [&.active_div]:max-w-full">
         About
-        <div class="h-0.5 max-w-0 bg-[#ff5722] transition-all duration-500 group-hover:max-w-full max-sm:mb-1"></div>
+        <div class="h-0.5 max-w-0 bg-[#00C8FF] transition-all duration-500 group-hover:max-w-full max-sm:mb-1"></div>
       </a>
 
       <a (click)="toggleMenu()" routerLink="projects" routerLinkActive="active" #projectsLinkActiveRef="routerLinkActive" (click)="scrollToTop(projectsLinkActiveRef.isActive)" class="group px-1 transition duration-300 max-sm:w-full max-sm:p-4 max-sm:text-center [&.active_div]:max-w-full">
         Projects
-        <div class="h-0.5 max-w-0 bg-[#ff5722] transition-all duration-500 group-hover:max-w-full max-sm:mb-1"></div>
+        <div class="h-0.5 max-w-0 bg-[#00C8FF] transition-all duration-500 group-hover:max-w-full max-sm:mb-1"></div>
       </a>
 
       <a (click)="toggleMenu()" routerLink="contact" routerLinkActive="active" #contactLinkActiveRef="routerLinkActive" (click)="scrollToTop(contactLinkActiveRef.isActive)" class="group px-1 transition duration-300 max-sm:w-full max-sm:p-4 max-sm:text-center [&.active_div]:max-w-full">
         Contact
-        <div class="h-0.5 max-w-0 bg-[#ff5722] transition-all duration-500 group-hover:max-w-full max-sm:mb-1"></div>
+        <div class="h-0.5 max-w-0 bg-[#00C8FF] transition-all duration-500 group-hover:max-w-full max-sm:mb-1"></div>
       </a>
     </nav>
   </div>
@@ -39,7 +39,7 @@
   <router-outlet></router-outlet>
 
   <div (click)="scrollToTop(true)" class="fixed bottom-2 right-5 z-20 flex aspect-square w-12 cursor-pointer items-center justify-center overflow-hidden rounded-lg border border-white bg-black bg-opacity-50 transition-colors hover:bg-[#717171]">
-    <div class="absolute bottom-0 left-0 w-full bg-[#ff5722d8]" [style.height]="scroll_percent + '%'"></div>
+    <div class="absolute bottom-0 left-0 w-full bg-[#00C8FFd8]" [style.height]="scroll_percent + '%'"></div>
     <i class="fa-solid fa-shuttle-space -mr-[0.1rem] -rotate-90 text-xl"></i>
   </div>
 </main>

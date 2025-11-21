@@ -257,7 +257,7 @@ Each project entry includes:
       ],
       "description": "Three tic-tac-toe versions in two modes, vs AI, vs player locally and multiplayer in real-time.",
       "live_version": "https://tic-tac-toe-alqu.onrender.com/",
-      "github_repo": "https://github.com/Pasek108/TicTacToe",
+      "github_repo": "https://github.com/sachinchobey/TicTacToe",
       "skills": [2, 4, 42, 45, 34, 0],
       "group": 0,
       "hidden": false

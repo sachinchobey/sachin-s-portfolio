@@ -13,7 +13,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff5722;
+  background: #00C8FF;
   border-radius: 999rem;
 }
 
@@ -23,10 +23,10 @@
 
 blockquote {
   background:
-    linear-gradient(to right, #ff5722 6px, transparent 4px) 0 100%,
-    linear-gradient(to left, #ff5722 6px, transparent 4px) 100% 0,
-    linear-gradient(to bottom, #ff5722 6px, transparent 4px) 100% 0,
-    linear-gradient(to top, #ff5722 6px, transparent 4px) 0 100%;
+    linear-gradient(to right, #00C8FF 6px, transparent 4px) 0 100%,
+    linear-gradient(to left, #00C8FF 6px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, #00C8FF 6px, transparent 4px) 100% 0,
+    linear-gradient(to top, #00C8FF 6px, transparent 4px) 0 100%;
   background-repeat: no-repeat;
   background-size: 20px 20px;
 }
@@ -35,7 +35,7 @@ blockquote:before,
 blockquote:after {
   font-family: FontAwesome;
   position: absolute;
-  color: #ff5722;
+  color: #00C8FF;
   font-size: 34px;
 }
 
